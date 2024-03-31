@@ -15,7 +15,7 @@
  }
  
  body {
-     background-color: rgb(252, 252, 252);
+     background-color: rgba(243, 243, 243, 0.575);
  }
  
  p {
@@ -54,9 +54,10 @@
  /* navbar */
  
  #nav-b {
-     background-color: rgb(252, 252, 252);
      padding-top: 10px;
-     margin-top: 10px;
+     margin-top: 0px;
+     background-color: rgba(243, 243, 243, 0.575);
+     /* box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 10px 0px; */
  }
  
  #logo-t {
@@ -71,7 +72,7 @@
  /* head section start*/
  
  .head {
-     margin-top: 20px;
+     margin-top: 30px;
  }
  
  #main-head {
@@ -228,6 +229,7 @@
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
  
  .code-card h4 {
@@ -236,9 +238,11 @@
  }
  
  .code-card:hover {
-     box-shadow: rgb(38, 57, 77) 0px 20px 30px -15px;
-     bottom: 10px !important;
-     transform: rotate(-15deg) !important;
+     transform: rotate3d(15, -15, 5, 20deg) !important;
+     box-shadow: rgba(38, 57, 77, 0.651) 15px 30px 40px -15px;
+     bottom: 20px !important;
+     perspective: 1000px;
+     perspective-origin: 50% 50%;
  }
  
  .code-card img {
@@ -303,11 +307,15 @@
      height: 40px;
      border-radius: 100px;
      transition: 0.5s !important;
+     position: relative;
+     bottom: 0;
  }
  
  .skill:hover {
      height: 45px;
      box-shadow: rgb(38, 57, 77) 0px 20px 30px -15px;
+     rotate: -1deg;
+     bottom: 10px;
  }
  
  .skill-name {
