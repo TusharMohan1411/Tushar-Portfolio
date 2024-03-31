@@ -411,7 +411,7 @@
  #projects-section-cont {
      margin: 0 auto;
      margin-top: 100px;
-     background: url("/images/projects/project-back.png");
+     background: url("/images/projects/projectback.png");
      background-repeat: no-repeat;
      background-attachment: fixed;
      /* background-color: rebeccapurple; */
@@ -647,7 +647,7 @@
  /* Contact Me Section Start */
  
  #contact-section {
-     background-image: url("/images/contact/whytochooseme.png");
+     background-image: url("/images/contact/wtcm.png");
      background-size: cover;
      min-width: 100% !important;
      margin: auto;
