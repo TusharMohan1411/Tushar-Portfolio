@@ -167,6 +167,25 @@
          font-size: 25px;
          margin-right: 7px;
      }
+     #naviconbtn {
+         border: 0;
+     }
+     #navicon {
+         font-size: 18px;
+     }
+     #logo-t {
+         font-weight: 900;
+         font-size: 27px;
+     }
+     .tnav {
+         width: 100% !important;
+     }
+     .tnav a {
+         text-align: center;
+     }
+     .tnav button {
+         text-align: center;
+     }
  }
  /* Head section Tab Queries */
  
@@ -399,6 +418,9 @@
      .skill-col {
          width: 100%;
          gap: 20px;
+     }
+     #other-skills-cont {
+         margin-top: 70px;
      }
      #other-skills-cont h2 {
          margin-bottom: 20px;
