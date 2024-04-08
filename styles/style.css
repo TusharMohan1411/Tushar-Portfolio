@@ -86,6 +86,18 @@
      padding-top: 30px;
  }
  
+ .navul {
+     display: flex;
+     justify-content: right;
+     width: 100%;
+ }
+ 
+ .tnavbtn {
+     text-align: center;
+     padding: 0px 30px !important;
+     margin: 7px 10px;
+ }
+ 
  #main-head {
      display: flex;
      justify-content: space-around;
@@ -183,8 +195,10 @@
      .tnav a {
          text-align: center;
      }
-     .tnav button {
+     .tnavbtn {
          text-align: center;
+         padding: 10px 30px !important;
+         margin: 7px 10px;
      }
  }
  /* Head section Tab Queries */
