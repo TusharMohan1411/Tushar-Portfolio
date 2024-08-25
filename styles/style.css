@@ -57,7 +57,10 @@
     color: white;
     text-decoration: none;
 
-    &:hover{
+    &:active{
+        color: white;
+    }
+    &:visited{
         color: white;
     }
  }
